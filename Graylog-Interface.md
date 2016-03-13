@@ -88,6 +88,7 @@ Stream dùng những rule riêng để phân luồng và lấy về các bản t
 
 Trong mục Stream, ta click vài Create Stream, sau đó điền Title và Description cho Stream.
 <img src ="http://i.imgur.com/xXIs7Nk.png">
+
 Click vào Edit Rule, sau đó thêm Rule mới cho Stream. 
 
 Ví dụ ở đây ta sẽ tạo rule để thu thập các bản tin chứa regex là : Failed password for .+ from .+
@@ -179,6 +180,7 @@ Sau khi launch xong input, cần có 2 phần của Input cần lưu ý
 Nhận những bản tin được đẩy bằng syslog thuần túy.
 
 Các thông số cũng giống với input GELF
+
 <img src="http://i.imgur.com/JAeFGgr.png">
 
 ####6.2 Extractor <a name="ex"> </a> 
@@ -190,6 +192,7 @@ Extractor được tạo ra bằng cách sử dụng kỹ thuật Regular Expres
 #####6.2.2 Tạo Extractor <a name="ta"> </a> 
 
 Bước 1 : Chọn 1 bản tin mẫu và extractor tạo ra sẽ lọc những thông tin với những bản tin có cú pháp tương tự như bản tin mẫu : 
+
 <img src="http://i.imgur.com/p7b0vYw.png">
 
 Bước 2 : Chọn thông tin cần lọc. Ví dụ ta muốn lọc thông tin về ip của source, dùng cú pháp sau : ^.*from (.+) port\b
