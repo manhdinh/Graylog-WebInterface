@@ -1,4 +1,4 @@
-###Một số kỹ thuật làm việc với WebInterface của Graylog
+###Một số kỹ thuật làm việc với Web-Interface của Graylog
 ##Mục lục
 
 *	[1.	Giới thiệu chung](#gtc)
